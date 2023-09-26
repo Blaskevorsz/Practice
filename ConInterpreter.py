@@ -6,7 +6,6 @@ class ExpresionBinaria:
 
 class NumeroDecimal(ExpresionBinaria):
     def __init__(self, numero):
-        # Llama al constructor de la clase base
         self.numero = numero
 
     def interpretar(self):
